@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="description"
+        content="Authentication Flow designed by Phil Goodwin for Unfold. Connect with them on Dribbble; the global community for designers and creative professionals." />
+    <meta charset="utf-8" />
+    <meta name="theme-color" content="#FFFFFF">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
+    <meta name="referrer" content="origin-when-cross-origin">
+    <meta name="facebook-domain-verification" content="14yui0t6bj9n8uz4d48a2snpt3cvnz" />
+    
+    <title>Authentication Flow by Phil Goodwin for Unfold on Dribbble</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utilities.css">
+    <link rel="icon"
+        href="https://cdn.dribbble.com/assets/favicon-99944ff731bb44d3a947810ca8728f177f8deac035a3a4342120c385fd7acb9d.svg"
+        type="image/x-icon">
+
+</head>
+
+<body>
+    <nav class="NavigationBar flex">
+        <div class="mobile-view-nav" id="mobileNavList">
+            <div class="more-button">
+                <img id="mobile-more-img" src="Media/more.svg" alt="">
+            </div>
+            <div class="mobile-logo">
+                <a href="https://dribbble.com/">
+                    <img src="Media/logo.svg" alt="" class="mobile-logo-image">
+                </a>
+            </div>
+            <div class="mobile-nav-list">
+                <ul class="mobile-nav-ul">
+                    <li><a href="https://dribbble.com/hiring">Find designers</a></li>
+                    <li><a href="https://dribbble.com/designers">
+                            Designer Search <br>
+                            <span>Quickly find your next design</span></a></li>
+                    <li><a href="https://dribbble.com/hiring">
+                            Post a job <br>
+                            <span>The #1 job board for design talent</span>
+                        </a></li>
+                    <li><a href="https://dribbble.com/shots/popular">Inspiration</a></li>
+                    <li><a href="https://dribbble.com/jobs">Jobs</a></li>
+                    <li><a href="https://dribbble.com/pro">Go Pro</a></li>
+                    <li><a href="">Log in</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="navDiv navDiv1">
+            <ul class="navUl">
+                <li class="flex on-hover-parent" id="hover-parent">Find designers<img src="Media/down.svg" alt=""></li>
+                <li class="flex"><a href="https://dribbble.com/shots/popular">Inspiration</a></li>
+                <li class="flex"><a href="https://dribbble.com/jobs">Jobs</a></li>
+                <li class="flex"><a href="https://dribbble.com/pro">Go Pro</a></li>
+            </ul>
+        </div>
+        <div class="navDiv navDiv2">
+            <a href="https://dribbble.com/">
+                <img src="Media/logo.svg" alt="" class="logo">
+            </a>
+        </div>
+        <div class="navDiv navDiv3 flex">
+            <input type="search" name="search" id="searchBar" placeholder="Search...">
+            <a href="https://dribbble.com/session/new" class="loginButton">Log in</a>
+            <a href="https://dribbble.com/session/new" class="signupButton flex">Sign up</a>
+        </div>
+    </nav>
+
+    <div class="on-hover-child" id="hidden-div">
+        <ul>
+            <li>
+                <div class="onhover1">
+                    <a href="https://dribbble.com/designers">
+                        Designer Search <br>
+                        <span>Quickly find your next design</span></a>
+                </div>
+            </li>
+            <li>
+                <div class="onhover2">
+                    <a href="https://dribbble.com/hiring">
+                        Post a job <br>
+                        <span>The #1 job board for design talent</span>
+                    </a>
+                </div>
+            </li>
+        </ul>
+    </div>
+
+    <main class="main-content">
+        <article class="middle-part">
+            <h2 class="heading">Authentication Flow</h2>
+            <div class="sticky-strap flex">
+                <div class="sticky-strap-left flex">
+                    <div class="profile-container">
+                        <div class="collectiveImages profile-tooltip-parent">
+                            <a href="https://dribbble.com/fhlcreative"><img src="Media/ProfilePic.png" alt=""
+                                    class="Profilepic"></a>
+                            <a href="https://dribbble.com/unfold"><img src="Media/UnfoldLogo.png" alt=""
+                                    class="small-unfold"></a>
+                        </div>
+
+                        <div class="profile-tooltip-new">
+                            <div class="tooltip-header-new">
+                                <img src="Media/ProfilePic.png" alt="Phil Goodwin" class="tooltip-pic-new">
+                                <div>
+                                    <span class="tooltip-name-new">Phil Goodwin</span>
+                                    <span class="tooltip-location-new">Athens, GA</span>
+                                </div>
+                                <button class="follow-btn-new">Follow</button>
+                            </div>
+                            <div class="tooltip-portfolio-new">
+                                <img src="Media/inside-profile-image-1.png" alt="Portfolio 1">
+                                <img src="Media/inside-profile-image-2.png" alt="Portfolio 2">
+                                <img src="Media/inside-profile-image-3.png" alt="Portfolio 3">
+                            </div>
+                            <div class="tooltip-teams-new">
+                                <span>Teams:</span>
+                                <img src="Media/UnfoldLogo.png" alt="Team 1">
+                                <img src="Media/team2.png" alt="Team 2">
+                                <img src="Media/team3.png" alt="Team 3">
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="sticky-strap-left-content flex">
+                        <span class="sticky-strap-up sticky-strap-name"><a href="https://dribbble.com/fhlcreative"
+                                id="sticky-strap-name-a">Phil
+                                Goodwin</a> for <a href="https://dribbble.com/unfold">Unfold</a></span>
+                        <span class="sticky-strap-down sticky-strap-name-below tooltip-container"><a href="">Available
+                                for work</a><a href="">Folow</a>
+                            <div class="tooltip">Follow Phil Goodwin</div>
+                        </span>
+                    </div>
+                </div>
+                <div class="sticky-strap-right flex">
+                    <button class="like-button like-click" id="signup-click-like"><img src="Media/like.svg"
+                            alt=""></button>
+                    <button class="bookmark-button bookmark-ckick"><img src="Media/bookmark.svg" alt=""></button>
+                    <button class="get-in-touch-button" id="get-in-touch-button">Get in touch</button>
+                </div>
+            </div>
+            <section class="video-container">
+                <video muted autoplay loop id="video-player">
+                    <source src="Media/Video.mp4" type="video/mp4">
+                </video>
+                <div class="seekbar-container">
+                    <div id="seekbar"></div>
+                </div>
+                <img src="Media/mute.svg" alt="" class="mute-image" id="muteBtn">
+            </section>
+        </article>
+
+        <aside class="side-logo-strip flex">
+            <button class="feedback-button" id="openAsideBtn"><img src="Media/feedback.svg" alt=""></button>
+
+            <div id="asideBar" class="aside-bar">
+                <button id="closeAsideBtn" class="close-aside-btn">&times;</button>
+                <div class="aside-content">
+                    <div class="aside-icons">
+                        <img src="Media/like.svg" alt="" class="like-button-3 like-click">
+                        <img src="Media/bookmark.svg" alt="" class="bookmark-button-3 bookmark-click">
+                        <img src="Media/share.svg" alt="" class="share-button-2" id="share-click">
+                        <img src="Media/info.svg" alt="" class="info-button-2" id="info-button-2">
+                    </div>
+                    <div class="discussion-header">
+                        <img src="Media/inside-feedback-image.png" alt="" class="avatar">
+                    </div>
+                    <h2 class="join-the-discussion-heading">Join the discussion</h2>
+                    <p class="join-the-discussion-p">Looking to share your feedback and join in on the conversation?</p>
+                    <a href="https://dribbble.com/session/new">
+                        <button class="cta-btn">Sign up to Dribbble</button>
+                    </a>
+                </div>
+            </div>
+
+            <button class="share-button" id="share-button"><img src="Media/share.svg" alt=""></button>
+            <button class="info-button" id="info-button"><img src="Media/info.svg" alt=""></button>
+        </aside>
+
+        <article class="below-content flex">
+            <p class="below-content-first-line">
+                I couldn’t resist bringing the desktop view of the Authentication screen to life using <a
+                    href="https://principleformac.com/">Principle</a> 💃.
+            </p>
+            <p class="below-content-second-line">
+                👉 <a href="https://twitter.com/fhlcreative/status/1657092160255057936?s=20">Follow along the journey to
+                    redesign this Customer Portal on Twitter</a>
+            </p>
+            <p class="dotted-line">--------------------</p>
+            <p class="below-content-last-para">
+                🚀 Let's create something big together! 🚀
+                Contact Unfold at <a
+                    href="https://unfold.co/contact/?utm_source=dribbble&utm_medium=shot&utm_campaign=product&utm_term=video&utm_content=0515023-Regions+MyMortgage+video">unfold.co/contact</a>
+                Follow us on <a href="https://twitter.com/unfoldco">Twitter</a> | <a
+                    href="https://www.behance.net/unfoldcoteam">Behance</a> | <a
+                    href="https://www.instagram.com/unfoldco/">Instagram</a> | <a
+                    href="https://www.youtube.com/channel/UCNV_rUx7S8SWlRbPLJAnVsg/featured">YouTube</a>
+                More about us on <a
+                    href="https://unfold.co/?utm_source=dribbble&utm_medium=shot&utm_campaign=product&utm_term=video&utm_content=0515023-Regions+MyMortgage+video">unfold.co</a>
+            </p>
+        </article>
+
+        <section class="unfold-section flex">
+            <div class="logo-line flex">
+                <span class="logo-line-1"></span>
+                <a href="https://dribbble.com/unfold"><img src="Media/UnfoldLogo.png" alt="" class="big-unfold"></a>
+                <span class="logo-line-2"></span>
+            </div>
+            <div class="unfold-heading-link"><a href="https://dribbble.com/unfold">Unfold</a></div>
+            <button class="get-in-touch-button" id="get-in-touch-below-unfold">Get in touch</button>
+        </section>
+
+        <article class="more-by-unfold-article flex">
+            <div class="more-by-unfold-article-upper-bar flex">
+                <span class="more-by-unfold-article-upper-bar-heading">More by Unfold</span>
+                <span>View Profile</span>
+            </div>
+            <div class="more-by-unfold-article-lower-bar">
+                <ul class="flex">
+                    <li class="more-images image-container">
+                        <a href="https://dribbble.com/shots/21444575-Regions-MyMortgage-Authentication">
+                            <img src="Media/More1.png" alt="">
+                            <div class="more-content">
+                                <span class="content-heading">Regions MyMortgage Authentication</span>
+                                <div>
+                                    <button class="like-button-2 like-click"><img src="Media/like.svg" alt=""></button>
+                                    <button class="bookmark-button-2 bookmark-click"><img src="Media/bookmark.svg"
+                                            alt=""></button>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="more-images image-container">
+                        <a href="https://dribbble.com/shots/21352128-Unfold-Academy-Landing-Page">
+                            <img src="Media/More2.png" alt="">
+                            <div class="more-content">
+                                <span class="content-heading">Unfold Academy Landing Page</span>
+                                <div>
+                                    <button class="like-button-2 like-click"><img src="Media/like.svg" alt=""></button>
+                                    <button class="bookmark-button-2 bookmark-click"><img src="Media/bookmark.svg"
+                                            alt=""></button>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="more-images image-container">
+                        <a href="https://dribbble.com/shots/21476886-Loans-Summary">
+                            <img src="Media/More3.png" alt="">
+                            <div class="more-content">
+                                <span class="content-heading">Loans Summary</span>
+                                <div>
+                                    <button class="like-button-2 like-click"><img src="Media/like.svg" alt=""></button>
+                                    <button class="bookmark-button-2 bookmark-click"><img src="Media/bookmark.svg"
+                                            alt=""></button>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="more-images image-container">
+                        <a href="https://dribbble.com/shots/24460030-Brain-fm-Mobile-Onboarding">
+                            <img src="Media/More4.png" alt="">
+                            <div class="more-content">
+                                <span class="content-heading">Brain.fm Mobile Onboarding</span>
+                                <div>
+                                    <button class="like-button-2 like-click"><img src="Media/like.svg" alt=""></button>
+                                    <button class="bookmark-button-2 bookmark-click"><img src="Media/bookmark.svg"
+                                            alt=""></button>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </article>
+
+
+        <div class="L-F-Like">
+            <img src="Media/L.svg" alt="">
+            <img src="Media/F.svg" alt="">
+            <span>Like</span>
+        </div>
+
+        <section class="last-links-strap flex">
+            <div class="last-logo"><a href="https://dribbble.com/"><img src="Media/logo.svg" alt=""></a></div>
+            <div class="last-links">
+                <ul class="flex">
+                    <li><a href="https://dribbble.com/for-designers">For designers</a></li>
+                    <li><a href="https://dribbble.com/hiring">Hire talent</a></li>
+                    <li><a href="https://dribbble.com/shots/popular">Inspiration</a></li>
+                    <li><a href="https://dribbble.com/advertise">Advertising</a></li>
+                    <li><a href="https://dribbble.com/stories">Blog</a></li>
+                    <li><a href="https://dribbble.com/about">About</a></li>
+                    <li><a href="https://dribbble.com/careers">Careers</a></li>
+                    <li><a href="https://dribbble.com/contact">Support</a></li>
+                </ul>
+            </div>
+            <div class="social-media-handles flex">
+                <a href="http://twitter.com/dribbble"><img src="Media/twitter.svg" alt=""></a>
+                <a href="http://facebook.com/dribbble"><img src="Media/instagram.svg" alt=""></a>
+                <a href="http://instagram.com/dribbble"><img src="Media/facebook.svg" alt=""></a>
+                <a href="http://www.pinterest.com/dribbble/"><img src="Media/pinterest.svg" alt=""></a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer-content flex">
+        <div class="footer-left flex">
+            &copy; 2024 Dribble <a href="https://dribbble.com/terms">Terms</a> <a
+                href="https://dribbble.com/privacy">Privacy</a> <a href="https://dribbble.com/cookie-policy">Cookies</a>
+        </div>
+        <div class="footer-right flex">
+            <a href="https://dribbble.com/directories/jobs">Jobs</a> <a
+                href="https://dribbble.com/directories/designers">Designers</a> <a
+                href="https://dribbble.com/directories/freelance-designers">Freelancers</a><a
+                href="https://dribbble.com/tags">Tags</a> <a href="https://dribbble.com/places">Places</a> <a
+                href="https://dribbble.com/resources">Resources</a>
+        </div>
+    </footer>
+
+    <div class="popup-container" id="popupContainer">
+        <div class="info-popup" id="info-popup">
+            <span class="close" onclick="closeInfoPopup()">&times;</span>
+            <h2>Shot details</h2>
+            <p>Posted May 16, 2023</p>
+
+            <div class="details">
+                <div><strong>Views</strong><br>94,490</div>
+                <div><strong>Saves</strong><br>67</div>
+                <div><strong>Likes</strong><br>210</div>
+                <div><strong>Comments</strong><br>12</div>
+            </div>
+            <div class="top">Tags</div>
+            <div class="tags">
+                <a href=""> <span>bank app</span></a>
+                <a href=""> <span>finance app</span></a>
+                <a href=""> <span>banking</span></a>
+                <a href=""> <span>interface design</span></a>
+                <a href=""> <span>app design</span></a>
+                <a href=""> <span>desktop app</span></a>
+                <a href=""> <span>prototype</span></a>
+                <a href=""> <span>micro interaction</span></a>
+                <a href=""> <span>animation</span></a>
+                <a href=""> <span>sign in</span></a>
+                <a href=""> <span>login</span></a>
+                <a href=""> <span>web design</span></a>
+                <a href=""> <span>web</span></a>
+                <a href=""> <span>web app</span></a>
+                <a href=""> <span>software</span></a>
+                <a href=""> <span>uiux</span></a>
+                <a href=""> <span>ux</span></a>
+                <a href=""> <span>ui</span></a>
+                <a href=""> <span>interface</span></a>
+                <a href=""> <span>product</span></a>
+            </div>
+        </div>
+
+        <div class="share-popup" id="share-popup">
+            <span class="close" onclick="closeSharePopup()">&times;</span>
+            <img src="Media/share-popup-image.png" alt="Screenshot" class="screenshot">
+            <h2>Share this with your social Community</h2>
+            <div class="social-buttons">
+                <a href="#"><img src="Media/pinterest.svg" alt="Pinterest"></a>
+                <a href="#"><img src="Media/twitter.svg" alt="Twitter"></a>
+            </div>
+            <p>or copy link</p>
+            <div class="copy-link">
+                <input type="text" id="shareLink" value="https://dribbble.com/shots/21444558-Auth" readonly>
+                <button onclick="copyLink()">Copy</button>
+            </div>
+        </div>
+
+        <div class="signup-popup" id="signup-popup">
+            <div class="close" id="close-btn">x</div>
+            <h2>Dribbble</h2>
+            <p id="variable-message">To send a message, you'll need a Dribbble account.</p>
+            <button class="button">
+                <img src="https://www.freepnglogos.com/uploads/google-logo-png/file-google-logo-svg-wikimedia-commons-23.png"
+                    alt="Google Logo" width="20">
+                Sign up with Google
+            </button>
+            <div class="or">or</div>
+            <button class="button email-button">
+                Continue with email
+            </button>
+            <p class="terms">
+                By creating an account you agree with our <a href="#" class="link">Terms of Service</a>, <a href="#"
+                    class="link">Privacy Policy</a>, and our default <a href="#" class="link">Notification Settings</a>.
+            </p>
+            <p class="link">
+                Already have an account? <a href="#" class="link">Log in</a>
+            </p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
